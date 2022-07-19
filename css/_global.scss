@@ -1,0 +1,39 @@
+*,body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+    color: #fff;
+    background-color: $color-black;
+    &.scroll {
+        overflow: hidden;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.container {
+    max-width: 1067px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 1;
+    font-weight: 600;
+    @media(max-width: 767px) {
+        font-size: 30px;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
